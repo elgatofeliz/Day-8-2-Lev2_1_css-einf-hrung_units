@@ -1,0 +1,80 @@
+/*=========================
+        GENERAL
+=========================*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 50vw;
+}
+
+li{
+    font-size: .8em;
+    line-height: 1.5em;
+}
+
+HTML{
+    font-size: 25px;
+}
+
+/*=========================
+        Header
+=========================*/
+
+h1{
+    border-top: 1px solid #999;
+    padding: 2vh 0;
+}
+
+p{
+    margin-bottom: 2vh;
+    font-size: .8rem;
+}
+
+/*=========================
+Liste - Ich habe Probleme mit der Emoji-font, daher habe ich Platzhalter benutzt
+=========================*/
+
+section{
+    border: .1rem solid #333;
+}
+
+ul{
+    padding-inline-start: 1.2em;
+    list-style: none;
+}
+
+/*-- DOGS --*/
+section>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>ul>li::before{
+    content:"🐕";
+    margin: 0 2px;
+}
+
+/*--CATS--*/
+
+section>ul>li:nth-of-type(1)>ul>li:nth-of-type(2)>ul>li::before{
+    content:"🐈";
+    margin: 0 2px;
+}
+
+/*-- PARROTS --*/
+
+section>ul>li:nth-of-type(2)>ul>li:nth-of-type(1)>ul>li::before{
+    content:"X";
+    margin: 0 2px;
+}
+
+/*-- Snakes --*/
+
+section>ul>li:nth-of-type(3)>ul>li:nth-of-type(1)>ul>li::before{
+    content:"S";
+    margin: 0 2px;
+}
+
+/*-- Lizards --*/
+
+section>ul>li:nth-of-type(3)>ul>li:nth-of-type(2)>ul>li::before{
+    content:"L";
+    margin: 0 2px;
+}
